@@ -17,7 +17,7 @@ public void MergePdfImg(string inputPath){
    //利用API轉換PDF檔案成jpeg圖片 convert PDF to Imgage--------------------
    var fileName = path + "/P%03d.jpeg";
    //將pdf輸出成單頁圖片
-   CSPDFConvertor.instance.f_ConvertAllPDF(paths[j], fileName);
+   CSPDFConvertor.instance.f_ConvertAllPDF(inputPath, fileName);
    //取得單面的圖片
    FileInfo[] pdfImages = PDFData.GetFiles("*.*");
   
