@@ -12,9 +12,6 @@ public class CSPDFConvertor : MonoBehaviour
         instance = this;
     }
 
-    /// <summary>
-    /// convert all pdf to jpeg
-    /// </summary>
     //用來轉換PDF成一張一張的jpeg圖片
     public void f_ConvertAllPDF(string pdfPath, string savePath)
     {
